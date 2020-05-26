@@ -1,0 +1,219 @@
+body{
+    background-color: #f3f4f5;
+    margin: 0 auto;
+    font-family: Arial;
+}
+.header{
+    border: 2px solid #5EBDF0;
+    background-color: white;
+}
+.header__menu{
+    color: #69B5DB;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial;
+}
+.h1{
+    display: flex;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+}
+.header__menu a{
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header__menu a:hover{
+    background-color: #D9060D;
+    color: white;
+    border-radius: 10px;;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.banner .banner_img-banner{
+    display: flex;
+    text-align: center;
+}
+.quees{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;    
+}
+.quees__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 1px #FCCF01;
+    border-radius: 10px;
+    width: 100%;
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+.title{
+    border-left: 6px solid #FCCF01;
+    background-color: #FFFEAE;
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+}
+.title2{
+    border-left: 6px solid #213571;
+    background-color: #C4E6FF;
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+}
+.title3{
+    border-left: 6px solid #A82631;
+    background-color:#FD7F80;
+    font-family: Arial;
+    font-size: 24px;
+    color: black;
+}
+.ingredientes{
+    display: flex;
+    margin: 0 auto;
+}
+.ingredientes__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #3B74FA;
+    border-radius: 10px;
+    width: 50%;
+}
+.ingredientes__box img{
+    border-radius: 10px;
+    margin: 6px;
+    padding: 5px;
+}
+.ingredientes__body{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    box-shadow: 0px -10px 10px 2px #6ECCCC;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.ingredientes2{
+    display: flex;
+    margin: 0 auto;
+}
+.ingredientes__box2{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #3B74FA;
+    border-radius: 10px;
+    width: 50%;
+}
+.ingredientes__box2 img{
+    border-radius: 10px;
+    margin: 6px;
+    padding: 5px;
+}
+.ingredientes__body2{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    box-shadow: 0px -10px 10px 2px #6ECCCC;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.ingredientes3{
+    display: flex;
+    margin: 0 auto;
+}
+.ingredientes__box3{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #3B74FA;
+    border-radius: 10px;
+    width: 50%;
+}
+.ingredientes__box3 img{
+    border-radius: 10px;
+    margin: 30px;
+    padding: 5px;
+}
+.ingredientes__body3{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    box-shadow: 0px -10px 10px 2px #6ECCCC;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.preparacion{
+    display: flex;
+}
+.preparacion__box{
+    justify-content: space-between;
+}
+.preparacion__body{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.preparacion2{
+    display: flex;
+    margin: 0 auto;
+}
+.preparacion2__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #A82631;
+    border-radius: 10px;
+    width: 50%;
+}
+.preparacion2__box img{
+    margin: 20px;
+    padding: 2px;
+}
+.preparacion2__body{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;    
+}
+.preparacion3{
+    display: flex;
+    margin: 0 auto;
+}
+.preparacion3__box{
+    margin: 15px;
+    box-shadow: 0px 1px 8px 2px #FD7F80;
+    border-radius: 10px;
+    width: 50%;
+}
+.preparacion3__box img{
+    margin: 20px;
+    padding: 2px;
+}
+.preparacion3__body{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;    
+}
+.footer{
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+    background-color: white;
+    border: 2px solid #5EBDF0;
+}
